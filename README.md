@@ -1,7 +1,7 @@
 # snaker
 
-[![Build Status](https://travis-ci.org/serenize/snaker.svg?branch=master)](https://travis-ci.org/serenize/snaker)
-[![GoDoc](https://godoc.org/github.com/serenize/snaker?status.svg)](https://godoc.org/github.com/serenize/snaker)
+[![Build Status](https://travis-ci.org/godoes/snaker.svg?branch=master)](https://travis-ci.org/godoes/snaker)
+[![GoDoc](https://godoc.org/github.com/godoes/snaker?status.svg)](https://godoc.org/github.com/godoes/snaker)
 
 This is a small utility to convert camel cased strings to snake case and back, except some defined words.
 
@@ -11,15 +11,15 @@ To replace the original toSnake and back algorithms for [https://github.com/cooc
 you can easily use snaker:
 
 Import snaker
-```go
+```shell
 import (
   github.com/coocood/qbs
-  github.com/serenize/snaker
+  github.com/godoes/snaker
 )
 ```
 
 Register the snaker methods to qbs
-```go
+```shell
 qbs.ColumnNameToFieldName = snaker.SnakeToCamel
 qbs.FieldNameToColumnName = snaker.CamelToSnake
 ```
