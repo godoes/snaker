@@ -9,7 +9,7 @@ echo 1. 更新三方依赖...
 cd
 ::& go get -d -u & echo.
 
-go get github.com/onsi/ginkgo@latest
+go get github.com/onsi/ginkgo/v2@latest
 go get github.com/onsi/gomega@latest
 
 echo 2. 整理模块依赖...
