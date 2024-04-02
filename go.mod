@@ -1,6 +1,6 @@
 module github.com/godoes/snaker
 
-go 1.17
+go 1.20
 
 require (
 	github.com/onsi/ginkgo/v2 v2.17.1
