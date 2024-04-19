@@ -3,15 +3,15 @@ arch:
   - amd64
   - ppc64le
 go:
-  - 1.8
-  - 1.9
-  - tip
-# Disable version go:1.8
+  - 1.x
+  - "1.20"
+  - "1.21"
+# Disable version go:1.21
 jobs:
   exclude:
     - arch: amd64
-      go: 1.8
+      go: "1.21"
     - arch: ppc64le
-      go: 1.8
+      go: "1.21"
 
 install: go get -t -d -v ./... && go build -v ./...
